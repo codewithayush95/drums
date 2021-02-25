@@ -38,7 +38,7 @@ function buttonAnimation(currentKey){
   setTimeout(function(){
     activeButton.classList.remove("pressed");
 
-  },500);
+  },400);
 }
 document.addEventListener("keypress",function(event){
   makeSound(event.key);
